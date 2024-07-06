@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    font-family:Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 80px;
+    background-color:beige;
+    color:white;
+    display:flex;
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.nav-logo{
+    height:100px;
+    width:50px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("Pinterest-logo.png");
+    background-size: cover;
+    height:30px;
+    width:30px;
+    display:flex;
+    color: black;
+}
+.highlight:hover{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    background-color: rgb(221, 221, 221);;
+}
+
+/*home, explore, create*/
+.home{
+    height:50px;
+    width:75px;
+    border-radius: 25px;
+    font: verdana;
+    background-color:black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.explore{
+    height:50px;
+    width:75px;
+    border-radius: 25px;
+    font: verdana;
+    font-weight: bold;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.create{
+    height:50px;
+    width:75px;
+    border-radius: 25px;
+    font: verdana;
+    font-weight: bold;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* search bar */
+.search{
+    display:flex;
+    justify-content: row;
+    align-items:center;
+    height:50px;
+    width:620px;
+    border-radius: 25px;
+    background-color:rgb(221, 221, 221);
+}
+.searchhighlight:hover{
+    height:50px;
+    width:620px;
+    border-radius: 25px;
+    background-color: rgb(187, 187, 187);;
+}
+.search_icon{
+    display:flex;
+    text-align: left;
+    color:gray;
+    position:relative;
+    left:16px;
+}
+.searchinput{
+    height:50px;
+    width:620px;
+    border-radius: 25px;
+    border:none;
+    background-color:rgb(221, 221, 221);
+    font: verdana;
+    font-size: 15px;
+    position:relative;
+    left:16px;
+}
+.noti{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    position:relative;
+    left:20px;
+}
+.notilogo{
+    display:flex;
+    color:gray;
+    font-size: 25px;
+}
+.mess{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    display:flex;
+    justify-content:right;
+    align-items: center;
+    position:relative;
+    left:20px;
+}
+.messlogo{
+    display:flex;
+    color:gray;
+    font-size: 25px;
+}
+.user{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    position:relative;
+    left:20px;
+}
+.userlogo{
+    display:flex;
+    color:gray;
+    font-size: 25px;
+}
+    
+
+.wrapper i{
+    font-size: 180px;
+    padding: 200px;
+    height: 15px;
+    color: red;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
